@@ -31,7 +31,7 @@ export const TOKEN_SYMBOL = "$HASH";
 export const BUY_SYMBOL = "$HASH";
 export const APPROVE_LIMIT = 100000000;
 export const chains = [base]
-export const BUY_LINK = "https://app.uniswap.org/";
+export const BUY_LINK = "https://app.uniswap.org/swap?outputCurrency=0x060377E5E4133947895e14eCe513AfEd03c14835&chain=base";
 export const USDC_DECIMALS = 18
 
 export const miningRigs = [
