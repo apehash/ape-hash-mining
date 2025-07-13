@@ -258,6 +258,7 @@ contract MiningMachines is Ownable, ReentrancyGuard {
     mapping(uint256 => MachineConfig) public machineConfigs;
     mapping(address => UserMachine[]) public userMachines;
     mapping(address => bool) private _user;
+    mapping(address => uint256) public userclaimed;
 
     uint256 public totalPurchased;
     uint256 public totalClaimed;
@@ -343,6 +344,7 @@ contract MiningMachines is Ownable, ReentrancyGuard {
         }
 
         require(rewardTotal > 0, "No rewards to claim");
+        userclaimed[msg.sender] += rewardTotal;
         totalClaimed += rewardTotal;
         require(rewardToken.transfer(msg.sender, rewardTotal), "Reward transfer failed");
     }
