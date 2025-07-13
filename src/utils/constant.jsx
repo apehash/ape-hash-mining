@@ -26,13 +26,13 @@ export const DEFAULT_CHAIN_ID = 8453;
 export const DEFAULT_RPC = "https://mainnet.base.org";
 export const MULTICALL_ADDRESS = "0xfee958fa595b4478cea7560c91400a98b83d6c91";
 export const TOKEN_ADDRESS = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"; //USDC address
-export const MINING_ADDRESS = "0x011d3eD7A162c33944DEFCeFa9d6ad0Fc1ceb005";
+export const MINING_ADDRESS = "0xcd7e4401dbf49587e693123f0fccf85c55df4d2b";
 export const TOKEN_SYMBOL = "$HASH";
-export const BUY_SYMBOL = "USDC";
-export const APPROVE_LIMIT = 1000;
+export const BUY_SYMBOL = "$HASH";
+export const APPROVE_LIMIT = 100000000;
 export const chains = [base]
 export const BUY_LINK = "https://app.uniswap.org/";
-export const USDC_DECIMALS = 6
+export const USDC_DECIMALS = 18
 
 export const miningRigs = [
     {
