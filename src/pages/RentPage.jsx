@@ -197,13 +197,7 @@ const RentPage = () => {
         </h3>
         <div className="space-y-4 font-mono text-green-200 text-left">
           <p className="border-l-2 border-green-400 pl-4">
-            All <span className="text-blue-300 font-bold">$USDC</span> generated from purchases will be used to buy back <span className="text-yellow-400 font-bold">$HASH</span> tokens and will be burned forever.
-          </p>
-          <p className="border-l-2 border-green-400 pl-4">
-            Currently, mining rig purchases use <span className="text-blue-300 font-bold">$USDC</span> as the primary currency and can generate <span className="text-yellow-400 font-bold">$HASH</span>.
-          </p>
-          <p className="border-l-2 border-green-400 pl-4">
-            The <span className="text-yellow-400 font-bold">$HASH</span> token price is still volatile and unstable. When the MCAP reaches 100,000, we will use <span className="text-yellow-400 font-bold">$HASH</span> to purchase mining rigs.
+            <span className="text-yellow-400 font-bold">$HASH</span> tokens obtained from mining rig purchases will be burned
           </p>
         </div>
       </motion.div>
